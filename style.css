@@ -1,0 +1,114 @@
+body {
+  background: #D7D7D7;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  border-radius:5px
+}
+
+h1 {
+    color: #DD5555;
+    font-size: 34px;
+}
+
+h2 {
+    font-size: 26 px;
+    font-weight: 300;
+}
+
+p{
+  text-align: justify;
+  padding:5px;
+}
+
+a {
+    color: #CCC;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+a:hover{
+  color: #C61414;
+}
+
+i {
+  font-size: 22px
+}
+
+.card {
+    padding: 25px;
+    text-align: center;
+    background: white;
+    margin: 49;
+    box-shadow: 2px 2px 3px grey;
+}
+
+.text-movie{
+  padding: 20px
+}
+
+.social{
+  display: inline-block;
+  padding: 20px
+}
+
+#img-profile{
+  width: 193;
+  height: 186;
+  border: 3px solid gray;
+}
+
+.img-circle{
+  border-radius: 357px;
+}
+
+.btn-red{
+  background-color: #C61414;
+  border-radius: 9px;
+  font-size: 15;
+  padding: 16px;
+  font-weight: 300;
+  color: white;
+  margin: 10px;
+}
+
+.btn-red:hover{
+  opacity: 0.8;
+}
+
+.img-movie{
+  width: 150px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+/*Try to resize your window to understand how media queries work.
+⚠️⚠️⚠️ Be careful with the order of your media queries ⚠️⚠️⚠️
+
+As with if statements in ruby, order matters! If several conditions are true, the last CSS rule will be applied.*/
