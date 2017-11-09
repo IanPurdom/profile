@@ -89,6 +89,20 @@ i {
   width: 150px;
 }
 
+#sidebar{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 119px;
+  text-align: center;
+  background-color: #C61414;
+}
+
+#content{
+  margin-left: 120px;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -112,3 +126,9 @@ i {
 ⚠️⚠️⚠️ Be careful with the order of your media queries ⚠️⚠️⚠️
 
 As with if statements in ruby, order matters! If several conditions are true, the last CSS rule will be applied.*/
+
+
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
